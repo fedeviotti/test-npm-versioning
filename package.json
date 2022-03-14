@@ -1,6 +1,6 @@
 {
   "name": "@fedeviotti/test-npm-versioning",
-  "version": "1.0.10",
+  "version": "1.0.11-0",
   "description": "",
   "main": "index.js",
   "scripts": {
