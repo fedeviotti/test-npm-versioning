@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version:branch": "npm version prerelease --preid=$(git symbolic-ref --short HEAD)",
+    "version:rc": "npm version prerelease --preid=rc"
   },
   "repository": {
     "type": "git",
