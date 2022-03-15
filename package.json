@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "version:branch": "yarn version --prerelease --preid=$(git symbolic-ref --short HEAD)",
-    "version:rc": "yarn version prerelease --preid=rc"
+    "version:rc": "yarn version prerelease --preid=rc",
+    "no-can-do": "echo \"Cannot bump version automatically on branch master. Please run 'yarn version [--major|--minor|--patch]' manually.\"",
+    "test-no-can-do" : "yarn run --silent no-can-do"
   },
   "repository": {
     "type": "git",
