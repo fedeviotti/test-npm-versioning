@@ -1,12 +1,12 @@
 {
   "name": "@fedeviotti/test-npm-versioning",
-  "version": "1.0.11-main.3",
+  "version": "1.0.11-main.4",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "version:branch": "npm version prerelease --preid=$(git symbolic-ref --short HEAD)",
-    "version:rc": "npm version prerelease --preid=rc"
+    "version:branch": "yarn version --new-version prerelease --preid=$(git symbolic-ref --short HEAD)",
+    "version:rc": "yarn version prerelease --preid=rc"
   },
   "repository": {
     "type": "git",
